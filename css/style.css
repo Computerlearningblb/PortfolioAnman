@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* background सिर्फ body पर लगाओ */
+body {
+    color:#fff !important;
+    background-color:blue !important;
+}
+
+
+html{
+    font-size: 20px;
+}
+.btn:hover, .btns:hover, #cabinet a i:hover{
+    background-color: #000 !important;
+    transition: .5s;
+    border: 2px solid #fff !important;
+}
+.bg-darkk {
+    background: linear-gradient(to right, rgba(5, 28, 51, .8) 0%, rgba(5, 41, 73, .8) 100%);
+}
+.colrs{
+    background: #fff !important;
+    /* color: #fff !important; */
+}
+#first li a{
+    color: #fff !important;
+}
+#pic img{
+    height: 350px;
+    width: 60%;
+    border-radius: 100px;
+    margin-left: 150px;
+}
+.hp{
+    height: 400px;
+    width: 90%;
+    border-radius: 50px;
+}
+.nav-item {
+    position: relative;
+}
+
+.nav-item a::before {
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    content: "";
+    border-bottom: 3px solid blue;
+    width: 0;
+    transition: width 0.4s ease-in;
+}
+
+.nav-item:hover a::before {
+    width: 100%;
+}
+#pic img{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3.5px);
+    border-radius: 100%;
+}
+#picc img{
+    background: linear-gradient(61deg,rgba(12, 53, 85, .5),rgba(5, 13, 23, .40));
+    backdrop-filter: blur(12px);
+    border-radius: 80px 100px 80px 100px;  
+}
+.cursor {
+    height: 10px;
+    width: 10px;
+    background: gray;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 99;
+    pointer-events: none;
+}
+.nav-link{
+    padding: 0px 40px !important;
+}
+#xyz h2{
+    letter-spacing: 4px !important;
+}
+.navbar-brand{
+    mix-blend-mode:screen !important;
+}
+#lion{
+    padding: 100px 0;
+}
+.btns{
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}
+.arnge{
+    line-height: 1.8;
+}
+#gaps{
+    padding-bottom: 20px;
+}
+#cabinet a i{
+    padding: 10px;
+    border-radius: 100px;
+    color: #fff;
+}
+.card-bottom {
+    /* background: linear-gradient(54deg, #240046, #390099) !important; */
+    background: linear-gradient(rgba(38,70,83)) !important;
+    color: white !important;
+    padding: 15px 10px;
+}
+.card-bottom i{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 100px;
+}
+.card-bottom i:hover{
+    background: pink;
+    color: #000;
+}
+
+
+/* #######################
+Tab section here 
+####################### */
+
+#select{
+    display: flex;
+    gap: 22px;
+}
+#select button{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: slateblue;
+    border: none;
+}
+
+#gap{
+    line-height: 1.7;
+}
+
+.sec{
+    display: none;
+}
+.sec span{
+    /* background: #fff; */
+    padding: 10px;
+    color: orangered;
+    font-size: 5rem;
+}
+.active{
+    display: block;
+}
+
+.carousel-indicators{
+    bottom: -110px !important;
+}
+
+#set i{
+    border-radius: 100px !important;
+    width: 80%;
+    color: #fff;
+    padding: 20px;
+}
+#good .pseudo{
+    position: relative;
+}
+
+#good .pseudo::before{
+    position: absolute;
+    top: 63px;
+    left: 47px;
+    content: "";
+    width: 1px;
+    height: 90%;
+    background-color: #0788FF;
+    z-index: -1;
+}
+
+/* fifth section */
+
+.box{
+    background-color: pink;
+    padding: 10px 20px;
+    width: 50%;
+    display: none;
+}
+.box-active{
+    display: block !important;
+}
+
+/* sixth section */
+
+#end{
+    font-size: 1.3rem;
+}
+#end p{
+    margin-bottom: 0rem !important;
+}
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width:1200px){
+    #select button{
+        padding: 10px 10px !important;
+    }
+    #set i{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+
+    #select button{
+        padding: 10px 2px !important;
+    }
+    #set i{
+        width: 100%;
+        padding: 15px;
+    }
+    #good .pseudo::before {
+        left: 38px !important;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:425px){
+    .card{
+        margin-top: 100px !important;
+    }
+    #set i {
+        width: 8%;
+    }
+    #act{
+        padding-left: 120px;
+        /* padding-bottom: 70px; */
+    }
+    #good .pseudo::before{
+        height: 105px !important;
+    }
+    #end{
+        margin-top: 50px;
+    }
+    #select button {
+        padding: 10px 20px !important;
+    }
+    #aboutme h2, #myproject h2, #journey h2, #contact h2{
+        margin-top: 50px;
+    }
+    #set{
+        width: 90% !important;
+        margin-bottom: -50px !important;
+    }
+}
+
+@media only screen and (max-width:426px) and (min-width:312px){
+    #select button {
+        padding: 0px 0px !important;
+        font-size: medium;
+    }
+    #set i {
+        width: 15%;
+    }
+    #pic img{
+        margin: 70px 0 0 70px !important;
+    }
+    #picc img{
+        margin-left: 20px !important;
+    }
+}
+
+@media only screen and (max-width:376px){
+    
+    #xyz h2 {
+    font-size: 1.2rem !important;
+    }
+    .card{
+        margin-top: 50px !important;
+    }
+    #aboutme h2, #myproject h2, #journey h2, #contact h2{
+        margin-top: 50px;
+    }
+    #set{
+        width: 100% !important;
+        margin-bottom: -50px !important;
+    }
+    #act h3, #act p{
+        font-size: 0.8rem;
+        padding-left: 80px;
+    }
+    #good .pseudo::before{
+        height: 60px !important;
+    }
+    #select button{
+        font-size: small;
+    }
+    #end{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:320px){
+
+    #xyz h2 {
+    font-size: 0.9rem !important;
+    }
+    #pic img {
+        margin: 70px 0 0 45px !important;
+        width: 70%;
+    }
+    #set i {
+        width: 20%;
+    }
+    #select button {
+        font-size: x-small;
+        padding: 4px 0px !important;
+    }
+    #contact h4{
+        font-size: 1rem ;
+    }
+    #cabinet a{
+        margin: -5px;
+    }
+}
+
+@media only screen and (max-width:312px){
+    #cabinet a{
+        margin: -6px;
+    }
+    #select button {
+        font-size: xx-small;
+        padding: 4px 1px !important;
+    }
+}

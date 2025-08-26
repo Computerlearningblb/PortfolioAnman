@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7a7115bd01.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="images/x-icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.Portfolio/css Portfolio/images Portfolio/js Portfolio/Aman_Gupta_Resume.pdf Portfolio/index.htmlcom" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- first section -->
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+
+        <nav class="navbar navbar-expand-lg navbar-info fixed-top bg-darkk" id="maddy">
+          <div class="container">
+            <a class="navbar-brand mt-2" href="#home"><img src="images/top1.png" alt="img" width="50px"></a>
+            <button class="navbar-toggler colrs" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto" id="first">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">
+                    Home
+                  </a>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutme">
+                    About Me
+                  </a>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#myproject">
+                    Projects
+                  </a>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#journey">
+                    Journey
+                  </a>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">
+                    Contact us
+                  </a>
+                </li>
+
+              </ul>
+
+              <a href="#aboutme" class="btn btn-md btn-primary">MY CV</a>
+            </div>
+          </div>
+
+          <div class="cursor" style="left: 420px; top: 150px; background-color: transparent; scale: 2.7; border: 2px solid grey;"></div>
+          <div class="cursor-blur" style="left: 240px; top: -106px;"></div>
+        </nav>
+      </div>
+    </div>
+
+
+    <script>
+      // Get the cursor element
+      const cursor = document.querySelector('.cursor');
+
+      // Add event listener for mousemove
+      document.addEventListener('mousemove', (e) => {
+      // Update cursor position
+      cursor.style.left = `${e.clientX}px`;
+      cursor.style.top = `${e.clientY}px`;
+      });
+    </script>
+
+    <div class="container pt-5" id="home">
+      <div class="row" id="lion">
+        <div class="col-lg-6" id="xyz">
+          <h2>HEY !!<br> I AM AMAN <br> I AM A Web <span class="text"></span></h2>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js" integrity="sha512-ggJ7yQCnXifbDXFFfyNhegaNXkkPMP+0cxMDobX6pABvU4zrqD+NMXxrGoAK9iANboRjpR4ajwWHCCfJXJFpJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+          <script>
+            let type = new Typed(".text",{
+            strings : ["Developer","Designer"],
+            typeSpeed : 160,
+            backSpeed : 160,
+            loop : true
+            });  
+          </script>
+
+          <p class="py-3">A dedicated web developer with a keen eye for design and a passion for crafting seamless,
+            engaging digital experiences through clean and efficient code.
+          <p>
+            <a href="#contact" class="btn btn-md btn-primary">Get in Touch</a>
+        </div>
+        <div class="col-lg-6" id="pic">
+          <img src="images/bg.png" alt="img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second section -->
+
+  <div class="container" id="aboutme">
+    <h2 class="text-center p-3">About Me</h2>
+    <div class="row">
+      <div class="col-lg-5" id="picc">
+        <img src="images/bg.png" alt="img" width="100%" class="hp">
+      </div>
+      <div class="col-lg-7 mt-4">
+        <p class="arnge">I'm Aman, a committed and detail-oriented web developer with a strong foundation in front-end
+          design. I specialize in building intuitive, responsive, and aesthetically engaging websites that blend
+          creativity with technical precision.<br><br>Beyond my professional interests, I’m deeply passionate about
+          music and outdoor adventures, which inspire my creativity and problem-solving mindset.</p>
+        <a href="Aman_Gupta_Resume.pdf" target="_blank" class="btns bg-primary">Download CV</a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- third section -->
+
+  <div class="container-fluid py-5" id="myproject">
+    <div class="container">
+      <h2 class="text-center p-4">My Projects</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-top">
+                    <a href="https://amangupta7076.github.io/Good_web/"><img src="images/flex.png" alt="img" width="100%" height="300px"></a>
+                  </div>
+                  <div class="card-bottom d-flex justify-content-between">
+                    <h4>GoodWeb</h4>
+                    <a href="https://github.com/AmanGupta7076/Good_web"><i class="fa-solid fa-book-open"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-top">
+                    <a href="https://amangupta7076.github.io/Jewellery/"><img src="images/grid.png" alt="img" width="100%" height="300px"></a>
+                  </div>
+                  <div class="card-bottom d-flex justify-content-between">
+                    <h4>Jewellery</h4>
+                    <a href="https://github.com/AmanGupta7076/Jewellery"><i class="fa-solid fa-book-open"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-top">
+                    <a href="https://amangupta7076.github.io/Furniture/"><img src="images/furni.png" alt="img" width="100%" height="300px"></a>
+                  </div>
+                  <div class="card-bottom d-flex justify-content-between">
+                    <h4>Furniture</h4>
+                    <a href="https://github.com/AmanGupta7076/Furniture"><i class="fa-solid fa-book-open"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-top">
+                    <a href="https://amangupta7076.github.io/shopgrids/"><img src="images/shopgrid.png" alt="img" width="100%" height="300px"></a>
+                  </div>
+                  <div class="card-bottom d-flex justify-content-between">
+                    <h4>Shopgrid</h4>
+                    <a href="https://github.com/AmanGupta7076/shopgrids"><i class="fa-solid fa-book-open"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-top">
+                    <a href="https://amangupta7076.github.io/Medipluss/"><img src="images/medi.png" alt="img" width="100%" height="300px"></a>
+                  </div>
+                  <div class="card-bottom d-flex justify-content-between">
+                    <h4>Mediplus</h4>
+                    <a href="https://github.com/AmanGupta7076/Medipluss"><i class="fa-solid fa-book-open"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- fourth section -->
+
+  <div class="container-fluid py-5" id="journey">
+    <div class="container" id="good">
+      <h1 class="text-center p-4">My Journey</h1>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="pb-4">Education</h3>
+          <div class="row">
+            <div class="col-lg-2 pseudo" id="set">
+              <i class="fa-solid fa-graduation-cap bg-primary"></i>
+            </div>
+            <div class="col-lg-10" id="act">
+              <h3>Masters of Computer Application</h3>
+              <p>(Maharishi Dayanand University, Rohtak)</p>
+            </div>
+          </div>
+
+          <div class="row pt-3">
+            <div class="col-lg-2 pseudo" id="set">
+              <i class="fa-solid fa-graduation-cap bg-primary"></i>
+            </div>
+            <div class="col-lg-10" id="act">
+              <h3>Bachelor of Computer Application</h3>
+              <p>(Maharishi Dayanand University, Rohtak)</p>
+            </div>
+          </div>
+
+          <div class="row py-4">
+            <div class="col-lg-2 pseudo" id="set">
+              <i class="fa-solid fa-graduation-cap ico bg-primary"></i>
+            </div>
+            <div class="col-lg-10" id="act">
+              <h3>Class- XII</h3>
+              <p>(Haryana Board of Secondary Education)</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-2" id="set">
+              <i class="fa-solid fa-graduation-cap ico bg-primary"></i>
+            </div>
+            <div class="col-lg-10" id="act">
+              <h3>Class- X</h3>
+              <p>(Central Board of Secondary Education)</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6">
+          <h2 class="pb-4">Tools</h2>
+          <div class="row">
+            <div class="col-lg-12" id="select">
+              <button id="butn-1" class="active">Html 5</button>
+              <button id="butn-2">CSS 3</button>
+              <button id="butn-3">Bootstrap 5</button>
+              <button id="butn-4">JavaScript</button>
+              <button id="butn-5">Jquery</button>
+            </div>
+            <div class="col-lg-12" id="manage">
+              <div id="sec1" class="sec  active">
+                <p><span class="fa-brands fa-html5 sec1 active"></span> HTML 5 is the fifth major revision of the HTML standard, introduced in 2014. It brings new features like semantic elements (header, footer, nav), multimedia support (video, audio), canvas for dynamic graphics, and improved form handling. HTML5 enhances user experience, mobile compatibility, and search engine optimization. It enables developers to create responsive, interactive web applications. With features like local storage, geolocation, and web workers, HTML5 improves performance and functionality. Widely adopted across browsers, HTML5 is a crucial tool for modern web development, allowing developers to build fast, scalable, and engaging websites that work seamlessly across devices. Its impact is significant.</p>
+              </div>
+
+              <div id="sec2" class="sec sec2">
+                <p><span class="fa-brands fa-css3 sec1 "></span> CSS 3 is the latest version of the Cascading Style Sheets standard. It brings new features like selectors, box shadows, gradients, transitions, animations, and media queries. CSS3 enables developers to create visually appealing, responsive, and interactive web pages. With features like flexbox and grid, CSS3 improves layout control and simplifies complex designs. It also supports advanced typography, transformations, and 3D effects. CSS3's modularity and improved performance make it a crucial tool for modern web development, allowing developers to separate presentation from content and create engaging user experiences that adapt to different devices and screen sizes seamlessly. Its capabilities are vast.</p>
+              </div>
+
+
+              <div id="sec3" class="sec sec3">
+                <p><span class="fa-brands fa-bootstrap sec1"></span> Bootstrap 5 is a popular front-end framework for building responsive and mobile-first web applications. Released in 2021, it offers a comprehensive set of pre-built UI components, layouts, and utilities. Bootstrap 5 features a revamped grid system, improved spacing and sizing utilities, and enhanced form controls. It also includes new components like offcanvas and accordion, as well as updated JavaScript plugins. With a focus on performance and accessibility, Bootstrap 5 enables developers to create fast, scalable, and visually appealing websites. Its large community and extensive documentation make it a go-to choice for web development projects, streamlining the development process.</p>
+              </div>
+
+              <div id="sec4" class="sec sec4">
+                <p><span class="fa-brands fa-java sec1"></span> JavaScript is a versatile, high-level programming language used for client-side scripting on the web. It enables developers to create dynamic, interactive web pages with features like animations, responsive design, and real-time updates. JavaScript is also used for server-side programming with technologies like Node.js, allowing developers to build scalable and fast server-side applications. Its ecosystem includes popular frameworks and libraries like React, Angular, and Vue.js. JavaScript's versatility, dynamic nature, and extensive community support make it a fundamental tool for web development, enabling developers to create engaging user experiences and complex web applications that run seamlessly across devices.</p>
+              </div>
+              <div id="sec5" class="sec sec4">
+                <p><span class="fa-brands fa-j sec1"></span> jQuery is a popular JavaScript library that simplifies client-side scripting and DOM manipulation. Released in 2006, it provides an easy-to-use interface for tasks like event handling, animations, and Ajax requests. jQuery's concise syntax and cross-browser compatibility make it a favorite among developers. It offers a wide range of plugins and libraries, extending its functionality for tasks like UI components, validation, and more. Although its usage has declined with modern JavaScript frameworks, jQuery remains a valuable tool for quick prototyping, small projects, and legacy system maintenance, streamlining development and improving productivity with its simplicity and flexibility.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <!-- fifth section -->
+
+  <div class="container-fluid" id="contact">
+    <div class="container">
+      <div class="row text-center p-4">
+        <h2>Contact</h2>
+        <h4>Get In Touch With Me!</h4>
+      </div>
+
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4" id="general">
+          <div class="firm p-3">
+            <div class="top" id="cabinet">
+              <img src="images/contact.jpg" alt="img">
+            </div>
+            <div class="bottom" id="cabinet">
+              <a href="https://www.linkedin.com/in/aman-gupta-941691367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin bg-primary m-3"></i></a>
+              <a href="https://www.facebook.com/share/1CCcLgbqme/"><i class="fa-brands fa-facebook bg-primary m-3"></i></a>
+              <a href="https://github.com/AmanGupta7076"><i class="fa-brands fa-github bg-primary m-3"></i></a>
+            </div>
+            <div class="footer" id="cabinet">
+              <h6>Mail Id:</h6>
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">amangupta10144@gmail.com</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-7" id="general-1">
+
+          <form class="row">
+    
+            <div class="col-md-6">
+              <label for="validationServer01" class="form-label"></label>
+              <input type="text" class="form-control" placeholder="Name" id="validationServer01" aria-describedby="validationServer03Feedback" required>
+            </div>
+  
+  
+            <div class="col-md-6">
+              <label for="validationServerUsername" class="form-label"></label>
+              <div class="input-group has-validation">
+              <input type="text" class="form-control" placeholder="Email" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      
+              </div>
+            </div>
+ 
+            <div class="col-md-12">
+              <label for="validationServer03" class="form-label"></label>
+              <input type="text" class="form-control" placeholder="Subject" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+            </div>
+ 
+            <div class="col-md-12">
+              <label for="validationServer05" class="form-label"></label>
+              <input type="text" class="form-control" placeholder="Message" id="validationServer05" aria-describedby="validationServer05Feedback" required> 
+            </div>
+  
+            <div class="col-12 mt-4">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- sixth section -->
+
+  <div class="container-fluid py-4 bg-darkk" id="end">
+    <p class="text-center">MADE WITH ❤️ BY <span> AMAN</span></p>
+    <!-- <i class="fa-solid fa-heart"></i> -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <script src="js/srcipt.js"></script>
+</body>
+</html>
